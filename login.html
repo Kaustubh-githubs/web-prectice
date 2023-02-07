@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Landing page</title>
+
+<!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="">
+
+    <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/loginStyle.css">
+
+
+   <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <div class="container">
+		<h1 class="label">User Login</h1>
+		<form class="login_form" action="index.html" method="get" name="form" onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password</div>
+			<button type="submit">Login</button>
+		</form>
+	</div>
+
+  
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/loginAuth.js"></script>
+
+</body>
+</html>
